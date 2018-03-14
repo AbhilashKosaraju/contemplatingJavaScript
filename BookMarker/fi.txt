@@ -1,0 +1,78 @@
+Creating model classes
+
+Commad Class..Pojo Classe
+ Default constructor,
+ Getters and Setters for attributes
+
+
+
+support method checks the inheritance for the objects of the classes bring created.
+
+      setCommandClass(Login.class);
+        setCommandName("login"); //This is the command name for the command to be called.
+        setSuccessView("loginSuccess"); // Once after clicking the submit button, if the user is valid
+        setFormView("loginForm");//
+Simple form controller have the attributes in addition with the validator.
+
+Dependency injection
+The IOC container
+
+
+
+
+
+
+
+
+Python:
+Download Python of desired version and set the path.
+Path is the system variable that you are operating system uses needed executables from the command line or the terminal window.
+Add the path of the Python and also path of the contents of the folder Scripts inside the python.
+
+Pygame:
+Go to the link, 
+https://www.lfd.uci.edu/~gohlke/pythonlibs/
+Search for the Pygame,
+Download the appropriate .whl file
+A WHL file is a package saved in the Wheel format, which is the standard built-package format used for Python distributions. It contains all the files for a Python install and metadata, which includes the version of the wheel implementation and specification used to package it. WHL files are compressed using Zip compression.
+
+pygame-1.9.3-cp36-cp36m-win_amd64.whl for Python 3.6 (64 bit)
+
+python -m ensurepip 
+
+python -m ensurepip --upgrade
+
+pip install wheel 
+Additional Libraries will be downloaded.
+
+pip install wheel --upgrade
+
+Locate the .whl file we downloaded in command prompt
+install  pygame-1.9.3-cp36-cp36m-win_amd64.whl
+
+And the pygame has been installed successfully.
+
+
+Note: Open command line as Administrator.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
